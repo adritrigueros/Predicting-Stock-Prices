@@ -5,12 +5,5 @@ The prediction of stock prices has been a popular topic for research and its is 
 tweets and Yahoo Finance for historic stock prices. Then the twitter dataset is cleaned, and a sentiment analysis is performed using VADER. The final dataset is obtained by merging the sentiment analysis results of the twitter dataset and the historic stock prices. A rolling window technique is applied to incorporate lagged features in the model, and finally Random Forest, XGBoost, Linear Regression, LSTM and Bidirectional LSTM are tested for the prediction of stock prices and their evaluation is compared with R-Squared and RMSE metrics against a traditional model like ARIMA. The results indicate that the proposed models outperform by far traditional time series models, such as, ARIMA. Additionally, a relation between sentiment scores and closing prices of stocks was found using several machine learning
 techniques. The performance of the models is tested on five different datasets, from the companies Tesla, Amazon, Google, Meta, and Apple.
 
-## Part 1: Data Collection
-
-This project uses two kinds of datasets: the tweets dataset, containing all the tweets mentioning the stocks ticker symbol from 2015 to 2022. This data was fetched through the twint scraping tool. And, the historic prices dataset, downloaded from Yahoo Finance, containing the stock's prices within the same range of years.
-
-## Part 2: Data Preparation
-
-As a second step, the data is prepared to be fed to the algorithms. The tweets dataset is cleaned through NLP techniques. Then sentiment analysis is performed using VADER. 
 
 
